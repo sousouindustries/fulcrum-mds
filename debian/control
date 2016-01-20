@@ -1,0 +1,16 @@
+Source: fulcrum-mds
+Section: libs
+Priority: optional
+Maintainer: Sousou Industries Releases <releases@sousouindustries.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://www.sousouindustries.com
+
+
+Package: fulcrum-mds
+Architecture: any
+# The package also depends on alembic, sqlalchemy and psycopg2 (TODO).
+Depends:
+    postgresql (>= 9.4),
+    fulcrum-common
+Description: Creates the Fulcrum Master Data Store (MDS)
