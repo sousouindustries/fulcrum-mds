@@ -12,5 +12,7 @@ Architecture: any
 # The package also depends on alembic, sqlalchemy and psycopg2 (TODO).
 Depends:
     postgresql (>= 9.4),
+    python3-alembic,
+    python3-psycopg2,
     fulcrum-common
 Description: Creates the Fulcrum Master Data Store (MDS)
