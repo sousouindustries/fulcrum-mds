@@ -9,7 +9,7 @@ Homepage: https://www.sousouindustries.com
 
 Package: fulcrum-mds
 Architecture: any
-# The package also depends on alembic, sqlalchemy and psycopg2 (TODO).
+# The package also depends on python3-es (TODO).
 Depends:
     postgresql (>= 9.4),
     python3-alembic,
